@@ -45,7 +45,7 @@
 
   <platform name="android">
     <!--dependency id="cordova-plugin-googleplayservices" url="https://github.com/FaynePerera/google-play-services.git"/-->
-    <framework src="com.google.android.gms:play-services-analytics:10.2.6" />
+    <framework src="com.google.android.gms:play-services-analytics:+" />
     
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="UniversalAnalytics">
